@@ -1,0 +1,9 @@
+{
+  "name": "erechnung",
+  "version": "0.5.1",
+  "description": "Prüft E-Rechnungen (XRechnung, ZUGFeRD) gegen EN 16931 und gibt ein Verdict mit Bericht.",
+  "author": {
+    "name": "Kai Kramer Consulting GmbH"
+  },
+  "license": "Apache-2.0"
+}

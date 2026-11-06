@@ -1,0 +1,13 @@
+{
+  "name": "kkc",
+  "owner": {
+    "name": "Kai Kramer Consulting GmbH"
+  },
+  "plugins": [
+    {
+      "name": "erechnung",
+      "source": "./plugins/erechnung",
+      "description": "Prüft E-Rechnungen (XRechnung, ZUGFeRD) gegen EN 16931 und gibt ein Verdict mit Bericht."
+    }
+  ]
+}

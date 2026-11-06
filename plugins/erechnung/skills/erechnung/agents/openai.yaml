@@ -1,0 +1,13 @@
+# OpenAI-/Codex-Adapter. Bewusst nur Oberflaeche und Policy - der fachliche
+# Kern liegt plattformneutral in SKILL.md, scripts/, references/ und assets/.
+interface:
+  display_name: "E-Rechnung pruefen"
+  short_description: "Prueft E-Rechnungen lokal; Verdict und deutscher Pruefbericht"
+  default_prompt: >-
+    Pruefe die bereitgestellte E-Rechnung lokal und erstelle den Pruefbericht
+    mit Verdict, Check sections und Findings.
+
+policy:
+  # Der Skill liest Rechnungsdateien und installiert bei fehlendem Java per
+  # apt-get nach. Beides soll bewusst ausgeloest werden, nicht beilaeufig.
+  allow_implicit_invocation: false
