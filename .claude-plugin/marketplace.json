@@ -3,6 +3,9 @@
   "owner": {
     "name": "Kai Kramer Consulting GmbH"
   },
+  "metadata": {
+    "description": "Öffentliche Agent Skills und Claude-Plugins der Kai Kramer Consulting GmbH"
+  },
   "plugins": [
     {
       "name": "erechnung",
